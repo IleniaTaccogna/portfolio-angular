@@ -10,5 +10,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './home-page.component.scss'
 })
 export class HomepageComponent {
-
+immagineHome="Image.jpg";
 }

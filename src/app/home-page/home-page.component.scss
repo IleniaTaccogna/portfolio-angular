@@ -1,0 +1,53 @@
+@import"../../variabili";
+header {
+    background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
+    width: 100%;
+    min-height: 95vh;
+    padding: 15px;
+  }
+  
+  .introduzione {
+    color: $colore-testo;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .img {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    height: 450px;
+  
+    .myimg {
+      border-radius: 50px;
+      box-shadow: white 0px 0px 20px;
+    }
+  }
+  
+  .icone {
+    margin-right: 210px;
+  }
+  
+  .container-introduzione {
+    font-family: $font-testo;
+  
+    h1 {
+      font-size: 35px;
+    }
+  
+    h2 {
+      font-size: 42px;
+    }
+  
+    h3 {
+      font-size: 40px;
+    }
+  
+    span {
+      color: $colore-primario;
+      font-weight: bold;
+      font-size: 55px;
+    }
+  }
