@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './chi-siamo.component.scss'
 })
 export class ChiSiamoComponent {
-  fototesseraZullo="/FototesseraZullo.jpg";
-  fototesseraTaccogna="/FototesseraTaccogna.jpg";
+  fototesseraZullo="/FototesseraZullo.png";
+  fototesseraTaccogna="/FototesseraTaccogna.png";
 }
