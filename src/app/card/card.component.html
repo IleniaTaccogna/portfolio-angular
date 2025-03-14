@@ -1,1 +1,12 @@
-<p>card works!</p>
+@let project = progetto();
+
+@if (project) {
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" [src]="project.immagine" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{ project.titolo }}</h5>
+      <p class="card-text">{{ project.descrizione }}</p>
+      <a [href]="project.link" class="btn btn-primary"></a>
+    </div>
+  </div>
+}
