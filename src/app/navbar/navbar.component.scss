@@ -1,0 +1,40 @@
+@import"../../variabili";
+.navbar {
+    background: $colore-navbar;
+    opacity: 0.9;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  
+    a {
+      color: $colore-testo;
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 20px;
+  
+      &:hover {
+        color: $colore-primario;
+      }
+    }
+  }
+  
+  .navbarLinks {
+    display: flex;
+    justify-content: flex-end;
+  
+    a {
+      margin-left: 10px;
+      margin-right: 70px;
+    }
+  }
+  
+  .logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  

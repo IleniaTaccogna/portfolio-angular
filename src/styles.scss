@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import"./variabili";
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow-x: hidden;
+  }
