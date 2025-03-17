@@ -2,63 +2,29 @@
 
 article {
   background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
-  width: 100%;
-  min-height: 95vh;
   padding: 15px;
-  margin: 0;
 
   h1 {
-    flex-direction: column;
-    align-items: center;  
     font-size: 60px;
     color: $colore-primario;
     font-family: $font-testo;
   }
 }
 
-.presentazione {
-  height: auto;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 150px;
-  font-family: $font-testo;
-}
-
 .section-chiSiamo {
-  display: flex;
-  align-items: center;
   color: $colore-testo;
   font-size: 22px;
   font-family: $font-testo;
-  width: 100%;
 }
 
 .titolo {
   color: $colore-primario;
   font-family: $font-testo;
   font-size: 50px;
-  margin-left: 3%;
-}
-
-.container-fototessera-zullo {
-  margin-right: 150px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-}
-
-.container-fototessera-taccogna {
-  display: flex;
-  flex-direction: column;
-  margin-left: 150px;
-  margin-top: 0px;
-  margin-bottom: 50px;
 }
 
 .fototesseraIlenia {
-  width: 350px;
+  width: 330px;
   height: 350px;
   border-radius: 50%;
   object-fit: contain;
@@ -67,13 +33,13 @@ article {
 }
 
 .fototesseraZullo {
-  width: 350px;
+  width: 330px;
   height: 350px;
   border-radius: 50%;
   object-fit: contain;
   box-shadow: white 0px 0px 20px;
   background-color: white;
-  margin-left: 100px;
+ 
 }
 
 

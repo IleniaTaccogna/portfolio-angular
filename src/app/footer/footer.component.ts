@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent {
-  logoIofa="Ifoa.png";
+  logoIfoa="Ifoa.png";
   logoCa="logo-code-architects.png";
 
 }

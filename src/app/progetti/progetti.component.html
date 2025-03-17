@@ -1,5 +1,9 @@
-<div class="d-flex justify-content-around m-5 " >
-@for (progetto of listaProgetti; track progetto) {
-  <app-card [progetto]="progetto" />
-}
+<div class=" container d-flex justify-content-center mt-5 mb-5  " >
+  <div class="row">  
+      @for (progetto of listaProgetti; track progetto) {
+        <div class="col-12 col-lg-3 mt-5 mx-5">
+        <app-card [progetto]="progetto" />
+      </div>
+      }
+  </div>
 </div>

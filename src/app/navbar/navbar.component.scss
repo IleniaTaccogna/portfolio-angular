@@ -1,15 +1,9 @@
 @import"../../variabili";
 .navbar {
-    background: $colore-navbar;
-    opacity: 0.9;
-    width: 100%;
+  background-color: $colore-navbar;
     position: sticky;
     top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  
+   
     a {
       color: $colore-testo;
       padding: 10px 15px;

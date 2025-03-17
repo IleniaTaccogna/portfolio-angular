@@ -1,0 +1,13 @@
+@import"../../variabili";
+.btn{
+  background:$colore-primario;
+  color: $colore-testo;
+
+  &:hover {
+    background: $colore-testo;
+    color:$colore-primario;
+    border: $colore-primario 2px solid;
+    transform: scale(1.05);
+  }
+}
+
