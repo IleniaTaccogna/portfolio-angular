@@ -1,32 +1,35 @@
-<article class="presentazione">
-    <h1>Noi Siamo:</h1>
-    <section class="section-chiSiamo">
-        <div class="container-fototessera-zullo">
+<article class="container-fluid py-5">
+    <h1 class="titolo coltext-md-end text-center " >Noi Siamo:</h1>
+
+    <!-- Federico Zullo -->
+    <section class="row section-chiSiamo">
+        <div class="col-md-3 text-md-end text-center container-fototessera-zullo">
             <h2 class="titolo">Federico Zullo</h2>
-            <img class="fototessera" [src]="fototesseraZullo" alt="Federico Zullo">
+            <img class="fototesseraZullo img-fluid " [src]="fototesseraZullo" alt="Federico Zullo">
         </div>
-        <p>
-            Ciao, mi chiamo Federico Zullo e sono un appassionato di codice e design, trasformo idee in interfacce
-            intuitive e performanti. Specializzato in sviluppo frontend, lavoro con tecnologie moderne per creare
-            esperienze utente fluide e accattivanti.
-            Sempre alla ricerca di nuove sfide, unisco estetica e funzionalità per portare il web a un livello
-            superiore. Sono un frontend developer con una grande passione per il codice pulito, il design
-            moderno e
-            l’usabilità.
-        </p>
+        <div class="col-md-7">
+            <p>
+                Ciao, mi chiamo Federico Zullo e sono un appassionato di codice e design. 
+                Trasformo idee in interfacce intuitive e performanti. Specializzato in sviluppo frontend, 
+                lavoro con tecnologie moderne per creare esperienze utente fluide e accattivanti. Sempre alla ricerca di nuove sfide, 
+                unisco estetica e funzionalità per portare il web a un livello superiore.
+            </p>
+        </div>
     </section>
 
-    <section class="section-chiSiamo">
-        <p>
-            Ciao, mi chiamo Ilenia Taccogna e ho 23 anni. Sono una frontend developer e adoro il mio lavoro. La
-            tecnologia
-            e il design mi appassionano da sempre, e ho scelto di dedicarmi alla creazione di esperienze web che
-            siano non solo funzionali, ma anche esteticamente piacevoli. Ogni giorno cerco di migliorarmi, imparando
-            nuove tecnologie e perfezionando le mie competenze per offrire il meglio.
-        </p>
-        <div class="container-fototessera-taccogna">
+    <!-- Ilenia Taccogna -->
+    <section class="row flex-row-reverse section-chiSiamo">
+        <div class="col-md-4 text-md-start text-center container-fototessera-taccogna">
             <h2 class="titolo">Ilenia Taccogna</h2>
-            <img class="fototessera" [src]="fototesseraTaccogna" alt="Ilenia Taccogna">
+            <img class="fototesseraIlenia img-fluid" [src]="fototesseraTaccogna" alt="Ilenia Taccogna">
+        </div>
+        <div class="col-md-7">
+            <p>
+                Ciao, mi chiamo Ilenia Taccogna e ho 23 anni. Sono una frontend developer e adoro il mio lavoro. 
+                La tecnologia e il design mi appassionano da sempre, e ho scelto di dedicarmi alla creazione di esperienze web 
+                che siano non solo funzionali, ma anche esteticamente piacevoli. 
+                Ogni giorno cerco di migliorarmi, imparando nuove tecnologie e perfezionando le mie competenze per offrire il meglio.
+            </p>
         </div>
     </section>
 </article>

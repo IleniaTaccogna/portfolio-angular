@@ -8,7 +8,8 @@ article {
   margin: 0;
 
   h1 {
-   
+    flex-direction: column;
+    align-items: center;  
     font-size: 60px;
     color: $colore-primario;
     font-family: $font-testo;
@@ -31,7 +32,7 @@ article {
   color: $colore-testo;
   font-size: 22px;
   font-family: $font-testo;
-  width: 80%;
+  width: 100%;
 }
 
 .titolo {
@@ -45,18 +46,18 @@ article {
   margin-right: 150px;
   display: flex;
   flex-direction: column;
-  margin-top: -150px;
+  margin-top: 50px;
 }
 
 .container-fototessera-taccogna {
   display: flex;
   flex-direction: column;
   margin-left: 150px;
-  margin-top: -120px;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 
-.fototessera {
+.fototesseraIlenia {
   width: 350px;
   height: 350px;
   border-radius: 50%;
@@ -64,3 +65,15 @@ article {
   box-shadow: white 0px 0px 20px;
   background-color: white;
 }
+
+.fototesseraZullo {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: contain;
+  box-shadow: white 0px 0px 20px;
+  background-color: white;
+  margin-left: 100px;
+}
+
+
