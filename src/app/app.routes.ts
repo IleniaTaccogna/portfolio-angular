@@ -8,6 +8,4 @@ export const routes: Routes = [
     { path: 'contatti', loadComponent: () => import('./contatti/contatti.component').then(c=> c.ContattiComponent)},
     { path: 'card', loadComponent: () => import('./card/card.component').then(c=> c.CardComponent)},
     { path: 'footer', loadComponent: () => import('./footer/footer.component').then(c=> c.FooterComponent)},
-
-    
 ];

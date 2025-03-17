@@ -8,7 +8,6 @@ import { Observable } from 'rxjs';
 })
 export class ProjectService {
   private readonly _http = inject(HttpClient);
-
   private readonly _url = "project.json";
 
   public getProjects(): Observable<Progetto[]> {

@@ -6,11 +6,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" href="#" [routerLink]="['/home-page']" routerLinkActive="active" >HomePage</a>
-        <a class="nav-link" href="#" [routerLink]="['/chi-siamo']" routerLinkActive="active">Chi Siamo</a>
-        <a class="nav-link" href="#" [routerLink]="['/progetti']" routerLinkActive="active">Progetti</a>
-        <a class="nav-link" href="#" [routerLink]="['/contatti']" routerLinkActive="active">Contatti</a>
-       
+        @for (router of routers; track router.link) {
+          <a class="nav-link" href="#" [routerLink]="[router.link]" routerLinkActive="active" >{{router.displayName}}</a>
+        }
       </div>
     </div>
   </div>
