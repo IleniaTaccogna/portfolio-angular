@@ -17,15 +17,15 @@ export class ContattiComponent {
 
  constructor() { 
    this.contattiForm= this._formContactBuilder.nonNullable.group({
-     nome:  [''],
+     name:[''],
      email:[''],
-     messaggio:['']
+     message:['']
    });
   }
 
   onSubmit(){
     this._servizio.postContatti(this.contattiForm.getRawValue()).subscribe((servizio) => {
-      console.log(this.contattiForm)
+      console.log(servizio)
     });
     
     console.log("Funzioma tutto?");
