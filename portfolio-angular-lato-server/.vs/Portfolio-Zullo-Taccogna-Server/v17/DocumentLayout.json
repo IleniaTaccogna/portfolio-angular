@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fzullo\\Desktop\\Portfolio-angualr-master\\portfolio-angular-lato-server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14DC1C9C-EE19-40F3-9D4A-AD265925EEA2}|Portfolio-Zullo-Taccogna-Server.csproj|c:\\users\\fzullo\\desktop\\portfolio-angualr-master\\portfolio-angular-lato-server\\controllers\\contattiformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14DC1C9C-EE19-40F3-9D4A-AD265925EEA2}|Portfolio-Zullo-Taccogna-Server.csproj|solutionrelative:controllers\\contattiformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14DC1C9C-EE19-40F3-9D4A-AD265925EEA2}|Portfolio-Zullo-Taccogna-Server.csproj|c:\\users\\fzullo\\desktop\\portfolio-angualr-master\\portfolio-angular-lato-server\\dto\\contattiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14DC1C9C-EE19-40F3-9D4A-AD265925EEA2}|Portfolio-Zullo-Taccogna-Server.csproj|solutionrelative:dto\\contattiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContattiFormController.cs",
+              "DocumentMoniker": "C:\\Users\\fzullo\\Desktop\\Portfolio-angualr-master\\portfolio-angular-lato-server\\Controllers\\ContattiFormController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContattiFormController.cs",
+              "ToolTip": "C:\\Users\\fzullo\\Desktop\\Portfolio-angualr-master\\portfolio-angular-lato-server\\Controllers\\ContattiFormController.cs",
+              "RelativeToolTip": "Controllers\\ContattiFormController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAnwB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T15:54:19.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContattiForm.cs",
+              "DocumentMoniker": "C:\\Users\\fzullo\\Desktop\\Portfolio-angualr-master\\portfolio-angular-lato-server\\Dto\\ContattiForm.cs",
+              "RelativeDocumentMoniker": "Dto\\ContattiForm.cs",
+              "ToolTip": "C:\\Users\\fzullo\\Desktop\\Portfolio-angualr-master\\portfolio-angular-lato-server\\Dto\\ContattiForm.cs",
+              "RelativeToolTip": "Dto\\ContattiForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T15:34:12.013Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
