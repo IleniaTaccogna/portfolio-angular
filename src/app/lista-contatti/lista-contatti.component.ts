@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ContattiService } from '../service/contatto.service';
 import { Contatto } from '../models/contatto';
 
@@ -9,7 +9,7 @@ import { Contatto } from '../models/contatto';
   styleUrl: './lista-contatti.component.scss'
 })
 
-export class ListaContattiComponent {
+export class ListaContattiComponent implements OnInit {
   public listaContatti: Contatto[] = []
   constructor(private _servizio: ContattiService) {}
  
