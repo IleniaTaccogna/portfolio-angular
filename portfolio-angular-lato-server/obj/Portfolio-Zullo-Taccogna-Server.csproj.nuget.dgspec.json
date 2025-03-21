@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fzullo\\Desktop\\Portfolio-angualr-master\\portfolio-angular-lato-server\\Portfolio-Zullo-Taccogna-Server.csproj": {}
+    "C:\\Users\\itaccogna\\Desktop\\Angular\\portfolio-angular-master\\portfolio-angular-lato-server\\Portfolio-Zullo-Taccogna-Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fzullo\\Desktop\\Portfolio-angualr-master\\portfolio-angular-lato-server\\Portfolio-Zullo-Taccogna-Server.csproj": {
+    "C:\\Users\\itaccogna\\Desktop\\Angular\\portfolio-angular-master\\portfolio-angular-lato-server\\Portfolio-Zullo-Taccogna-Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fzullo\\Desktop\\Portfolio-angualr-master\\portfolio-angular-lato-server\\Portfolio-Zullo-Taccogna-Server.csproj",
+        "projectUniqueName": "C:\\Users\\itaccogna\\Desktop\\Angular\\portfolio-angular-master\\portfolio-angular-lato-server\\Portfolio-Zullo-Taccogna-Server.csproj",
         "projectName": "Portfolio-Zullo-Taccogna-Server",
-        "projectPath": "C:\\Users\\fzullo\\Desktop\\Portfolio-angualr-master\\portfolio-angular-lato-server\\Portfolio-Zullo-Taccogna-Server.csproj",
-        "packagesPath": "C:\\Users\\fzullo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fzullo\\Desktop\\Portfolio-angualr-master\\portfolio-angular-lato-server\\obj\\",
+        "projectPath": "C:\\Users\\itaccogna\\Desktop\\Angular\\portfolio-angular-master\\portfolio-angular-lato-server\\Portfolio-Zullo-Taccogna-Server.csproj",
+        "packagesPath": "C:\\Users\\itaccogna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\itaccogna\\Desktop\\Angular\\portfolio-angular-master\\portfolio-angular-lato-server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fzullo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\itaccogna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

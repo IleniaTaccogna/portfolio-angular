@@ -1,4 +1,11 @@
 @import"../../variabili";
-.form-contact{
+
+.titleContact {
+  color: $colore-primario;
+  font-size: 60px;
+}
+
+.formContact {
   font-family: $font-testo;
+  font-size: 25px;
 }

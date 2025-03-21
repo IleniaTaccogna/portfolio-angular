@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ContattiService } from '../service/contatto.service';
 import { Contatto } from '../models/contatto';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-lista-contatti',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './lista-contatti.component.html',
   styleUrl: './lista-contatti.component.scss'
 })

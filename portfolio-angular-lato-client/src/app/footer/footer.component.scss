@@ -1,29 +1,29 @@
 @import"../../variabili";
-.logoCA {
-    height: 100%;
-    width: 100%;
-    margin-left: 20px;
-  }
-  
-  .logoIFOA {
-    height: 100%;
-    width: 100%;
-    margin-right: 20px;
-  }
-  
-  footer {
-    background-color: $colore-navbar;
-    color: $colore-testo;
-    width: 100%;
-    bottom: 0;
- 
 
-    a {
-      color: $colore-testo;
-      text-decoration: none;
-    }
-    .policy{
-      margin:0;
-    }
+.logoCA {
+  margin-left: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.logoIFOA {
+  margin-right: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  background-color: $colore-navbar;
+  bottom: 0;
+  color: $colore-testo;
+  width: 100%;
+
+  a {
+    color: $colore-testo;
+    text-decoration: none;
   }
-  
+
+  .policy {
+    margin: 0;
+  }
+}

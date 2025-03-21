@@ -5,16 +5,16 @@ article {
   padding: 15px;
 
   h1 {
-    font-size: 60px;
     color: $colore-primario;
     font-family: $font-testo;
+    font-size: 60px;
   }
 }
 
 .section-chiSiamo {
   color: $colore-testo;
-  font-size: 22px;
   font-family: $font-testo;
+  font-size: 22px;
 }
 
 .titolo {
@@ -24,22 +24,19 @@ article {
 }
 
 .fototesseraIlenia {
-  width: 330px;
-  height: 350px;
-  border-radius: 50%;
-  object-fit: contain;
-  box-shadow: white 0px 0px 20px;
   background-color: white;
+  border-radius: 50%;
+  box-shadow: white 0px 0px 20px;
+  height: 350px;
+  object-fit: contain;
+  width: 330px;
 }
 
 .fototesseraZullo {
-  width: 330px;
-  height: 350px;
-  border-radius: 50%;
-  object-fit: contain;
-  box-shadow: white 0px 0px 20px;
   background-color: white;
- 
+  border-radius: 50%;
+  box-shadow: white 0px 0px 20px;
+  height: 350px;
+  object-fit: contain;
+  width: 330px;
 }
-
-

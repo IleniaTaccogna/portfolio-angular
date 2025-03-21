@@ -1,3 +1,3 @@
 export class Contatto{
-  constructor(public nome:string,public email:string,public messaggio:string){}
+  constructor(public name:string,public email:string,public message:string){}
 }

@@ -1,30 +1,31 @@
 @import"../../variabili";
-    .myimg {
-      border-radius: 50px;
-      box-shadow: black 0px 0px 13px;
-      height: 500px;
-      width: 400px;
-    }
 
-  .container-introduzione {
-    font-family: $font-testo;
-    color: $colore-testo;
-  
-    h1 {
-      font-size: 35px;
-    }
-  
-    h2 {
-      font-size: 42px;
-    }
-  
-    h3 {
-      font-size: 40px;
-    }
-  
-    span {
-      color: $colore-primario;
-      font-weight: bold;
-      font-size: 55px;
-    }
+.myimg {
+  border-radius: 50px;
+  box-shadow: black 0px 0px 13px;
+  height: 500px;
+  width: 400px;
+}
+
+.container-introduzione {
+  color: $colore-testo;
+  font-family: $font-testo;
+
+  h1 {
+    font-size: 35px;
   }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  span {
+    color: $colore-primario;
+    font-size: 55px;
+    font-weight: bold;
+  }
+}

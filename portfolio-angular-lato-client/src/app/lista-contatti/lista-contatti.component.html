@@ -1,1 +1,23 @@
-<p>lista-contatti works!</p>
+<div class="container-fluid my-5">
+  <h1 class="text-center my-5 titleTable">Lista Contatti</h1>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 ">
+      <table class="table table-light table-hover ">
+        <thead>
+          <tr class="tableText">
+            <th scope="col" >Nome</th>
+            <th scope="col">Email</th>
+            <th scope="col">Messaggio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tableContact" *ngFor="let contatto of listaContatti">
+            <td>{{contatto.name}}</td>
+            <td>{{contatto.email}}</td>
+            <td>{{contatto.message}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

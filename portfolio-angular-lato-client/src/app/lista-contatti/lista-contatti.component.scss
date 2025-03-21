@@ -1,0 +1,22 @@
+@import"../../variabili";
+.titleTable{
+  color:$colore-primario;
+  font-family: $font-testo;
+  font-size: 60px;
+
+}
+.tableText >th {
+ color: $colore-primario;
+ font-family: $font-testo;
+ font-size: 25px;
+}
+
+td {
+  max-width: 300px;
+  overflow-x: auto;
+}
+
+ td{
+  max-width: 100px;
+  overflow-x: auto;
+}
