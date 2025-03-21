@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
 
-
-
-
 @Component({
   selector: 'app-home-page',
   imports: [],
@@ -10,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './home-page.component.scss'
 })
 export class HomepageComponent {
-immagineHome="Image.jpg";
+imageHome="Image.jpg";
 }

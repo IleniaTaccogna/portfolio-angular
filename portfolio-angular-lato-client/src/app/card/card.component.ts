@@ -1,5 +1,5 @@
 import { Component, input } from '@angular/core';
-import { Progetto } from '../models/progetto';
+import { Project } from '../models/project';
 
 @Component({
   selector: 'app-card',
@@ -8,5 +8,5 @@ import { Progetto } from '../models/progetto';
 })
 export class CardComponent {
 
-  public readonly progetto = input<Progetto | undefined>();
+  public readonly project = input<Project | undefined>();
 }

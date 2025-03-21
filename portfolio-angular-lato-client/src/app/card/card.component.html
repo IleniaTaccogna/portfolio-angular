@@ -1,12 +1,12 @@
-@let project = progetto();
+@let projects = project();
 
-@if (project) {
+@if (projects) {
   <div class="card" style="width: 18rem;">
-    <img class="card-img-top" style="height: 230px;" [src]="project.immagine" alt="immagine progetto" />
+    <img class="card-img-top" style="height: 230px;" [src]="projects.image" alt="immagine progetto" />
     <div class="card-body ">
-      <h5 class="card-title">{{ project.titolo }}</h5>
-      <p class="card-text">{{ project.descrizione }}</p>
-      <a [href]="project.link" class="btn ">Link al progetto</a>
+      <h5 class="card-title">{{ projects.title }}</h5>
+      <p class="card-text">{{ projects.description }}</p>
+      <a [href]="projects.link" class="btn ">Link al progetto</a>
     </div>
   </div>
 }

@@ -1,8 +1,8 @@
 <div class="container-fluid d-flex justify-content-center mt-5 mb-5">
   <div class="row d-flex justify-content-center  text-center">  
-      @for (progetto of listaProgetti; track progetto) {
+      @for (project of projectList; track project) {
         <div class="col-12 col-lg-3 mt-5 d-flex mx-5   justify-content-center"> 
-          <app-card [progetto]="progetto" />
+          <app-card [project]="project" />
         </div>
       }
   </div>

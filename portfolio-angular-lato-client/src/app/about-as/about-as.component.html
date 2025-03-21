@@ -1,0 +1,13 @@
+<article class="container-fluid  ">
+    <h1 class="text-center my-5">Noi Siamo:</h1>
+     @for (item of person; track item) {
+    <section class="row section-chiSiamo justify-content-evenly align-items-center mb-5 ">
+        <div class="col-12 col-lg-4  text-center my-4 ">
+            <h2 class="titolo">{{item.fullName}}</h2>
+            <img class="fototesseraZullo  " src={{item.photo}} alt="Federico Zullo">
+        </div>
+        <div class="col-md-6 my-4">
+            <p> {{item.description}}</p>
+        </div>
+    </section>
+}
