@@ -1,5 +1,8 @@
 @import"../../variabili";
 
+.bgForm{
+  background:url("https://codearchitects.com/wp-content/uploads/2021/10/sede_code-architects.jpg") no-repeat center center/cover;
+}
 .titleContact {
   color: $colore-primario;
   font-size: 60px;
@@ -8,4 +11,14 @@
 .formContact {
   font-family: $font-testo;
   font-size: 25px;
+}
+
+.bg{
+
+
+}
+
+.opacity{
+  background: rgba(255, 255, 255, 0.349)
+
 }

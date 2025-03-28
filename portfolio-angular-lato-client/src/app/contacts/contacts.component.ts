@@ -27,6 +27,7 @@ export class ContactsComponent {
   onSubmit(){
     this._service.postContatti(this.contactsForm.value).subscribe((_service) => {
       console.log(_service)
+      this.contactsForm.reset();
     });
     console.log("Funzioma tutto?");
   }

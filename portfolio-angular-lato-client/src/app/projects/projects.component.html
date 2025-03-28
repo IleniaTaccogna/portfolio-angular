@@ -2,7 +2,12 @@
   <div class="row d-flex justify-content-center  text-center">  
       @for (project of projectList; track project) {
         <div class="col-12 col-lg-3 mt-5 d-flex mx-5   justify-content-center"> 
-          <app-card [project]="project" />
+          <app-card [project]="project">
+              <img class="card-img-top" style="height: 230px;" [src]="project.image" alt="immagine progetto" /> 
+              <h5 class="card-title">{{ project.title }}</h5>
+              <p class="card-text  card-description">{{ project.description }}</p>
+              <a [href]="project.link" class="card-link btn">Link al progetto</a>
+          </app-card>
         </div>
       }
   </div>

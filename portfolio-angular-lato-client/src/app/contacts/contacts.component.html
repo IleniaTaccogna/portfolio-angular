@@ -1,10 +1,7 @@
-<div [formGroup]="contactsForm" (ngSubmit)="onSubmit()" class="container-fluid my-4 ">
-    <!-- <div class="text-white">
-        {{contattiForm.value | json}}
-    </div> -->
-    <h1 class="text-center  my-4 titleContact ">Contattaci!</h1>
-    <div class="row justify-content-center">
-        <div class="col-7 border shadow rounded p-3 bg-light  fw-bold ">
+<div [formGroup]="contactsForm" (ngSubmit)="onSubmit()" class="container-fluid my-4 bgFormContact  ">
+    <h1 class="text-center my-4  titleContact">Contattaci!</h1>
+    <div class="row justify-content-center ">
+        <div class="col-7 border shadow rounded p-3 fw-bold content opacity " >  
             <form class="my-1 mx-4 text-dark  " method="POST" action="">
 
                 <h1 class="display-2  text-center  fw-bold"></h1>
